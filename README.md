@@ -1,7 +1,5 @@
 # 🌟 个人作品集网站
 
-> 基于 David Haz 设计理念的现代化个人作品集，使用 React + Vite 构建
-
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-username.github.io/personal-portfolio)
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.0.0-purple)](https://vitejs.dev/)
