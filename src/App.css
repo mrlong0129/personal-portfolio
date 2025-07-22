@@ -1,0 +1,72 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* 通用样式 */
+.section {
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 按钮样式 */
+.star-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.star-button:hover {
+  background: #fff;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+.star-button span {
+  font-size: 0.8rem;
+}
+
+/* 文字动画 */
+.animated-text {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .section {
+    padding: 1rem;
+  }
+  
+  .star-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
