@@ -225,9 +225,8 @@ npm run deploy   # 部署到 GitHub Pages
 
 ## 📞 联系方式
 
-- 📧 Email: your-email@example.com
-- 🐙 GitHub: [@your-username](https://github.com/your-username)
-- 💼 LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- 📧 Email: charliephilpower@gmail.com
+- 🐙 GitHub: (https://github.com/mrlong0129)
 
 ---
 
